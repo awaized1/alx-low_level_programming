@@ -1,6 +1,3 @@
-2-mul.c
-
-
 #include "main.h"
 
 /**
