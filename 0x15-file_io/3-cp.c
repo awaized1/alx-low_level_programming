@@ -31,6 +31,7 @@ char *create_buffer(char *file)
  * close_file - Program closes file descriptors.
  * @fd: File descriptor to be closed.
  */
+
 void close_file(int fd)
 {
 	int c;
@@ -45,7 +46,7 @@ void close_file(int fd)
 }
 
 /**
- * m0ain - Program copies the file contents to another file.
+ * main - Program copies the file contents to another file.
  * @argv: Array of pointers to the arguments.
  * @argc: Number of arguments inputed to the program.
  *
