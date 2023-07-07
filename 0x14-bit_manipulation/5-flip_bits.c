@@ -2,8 +2,8 @@
 
 /**
  * flip_bits - Program counts the num of bits to be changed
- * n: the first number
- * m: the second number
+ * @n: the first number
+ * @m: the second number
  *
  * Return: number of bits to change.
  */
