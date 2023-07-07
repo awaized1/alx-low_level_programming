@@ -2,8 +2,8 @@
 
 /**
  * clear_bit - Program sets the bit to 0
- * n: a pointer to number to change
- * index: index of the bit
+ * @n: a pointer to number to change
+ * @index: index of the bit
  *
  * Return: 1 if success, -1 if failure.
  */
