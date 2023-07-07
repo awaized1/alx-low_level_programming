@@ -5,12 +5,12 @@
  * n: a pointer to the num to change
  * index: index of 1
  *
- * Return: 1 if success, -1 if failure
+ * Return: 1 if successful, -1 on failure
  */
-
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	if (index >= sizeof(n) * 8)
 		return (-1);
+
 	return (!!(*n |= 1L << index));
 }
