@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * get_bit - Program returns the bit value at an index to a decimal
- * @n:The num to search through
- * @index: an index
+ * get_bit - Code returns the bit value at index to decimal
+ * @n: The num to search through
+ * @index: an index value
  *
  * Return: value
  */
@@ -16,6 +16,5 @@ int get_bit(unsigned long int n, unsigned int index)
 		return (-1);
 
 	bit_val = (n >> index) & 1;
-
 	return (bit_val);
 }
