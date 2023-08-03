@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * binary_to_uint - Program converts binary num to an unsigned int
- * @b: The str containing binary number to be converted
+ * binary_to_uint - Code that converts binary num to an unsigned int
+ * @b: The str pointer stores binary number to be converted
  *
  * Return: number converted
  */
@@ -21,6 +21,5 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		dec_val = 2 * dec_val + (b[i] - '0');
 	}
-
 	return (dec_val);
 }
